@@ -36,7 +36,8 @@ def add():
             "id": next_id,
             "author": author,
             "title": title,
-            "content": content
+            "content": content,
+            "likes": 0
         }
         blog_posts.append(new_post)
 
